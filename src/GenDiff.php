@@ -10,7 +10,6 @@ class GenDiff
 Generate diff
 
 Usage:
-  gendiff <a>
   gendiff (-h | --help)
   gendiff (-v | --version)
 
@@ -18,6 +17,7 @@ Options:
   -h --help      Show this screen.
   -v --version   Show version.
 DOC;
+    private const VERSION = 'v1.0.0';
 
     /**
      * @var Handler
@@ -37,7 +37,7 @@ DOC;
         $args = $this->docopt->handle(self::DOC);
 
         if ($args['--version']) {
-            echo "v1.0.0" . PHP_EOL;
+            echo self::VERSION . PHP_EOL;
             return;
         }
     }
