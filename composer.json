@@ -1,0 +1,12 @@
+{
+    "name": "nikitaarhipov/php-project-lvl2",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikita Arkhipov",
+            "email": "niktyper13@gmail.com"
+        }
+    ],
+    "require": {}
+}
