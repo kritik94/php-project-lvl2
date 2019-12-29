@@ -8,5 +8,16 @@
             "email": "niktyper13@gmail.com"
         }
     ],
-    "require": {}
+    "scripts": {
+        "phpcs": "phpcs"
+    },
+    "autoload": {
+        "psr-4": {"GenDiff\\": "src/"}
+    },
+    "require": {
+        "docopt/docopt": "1.0.4"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.5.3"
+    }
 }
